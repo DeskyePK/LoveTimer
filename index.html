@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alicy & Kauã</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <!-- Tela de loading -->
+  <div id="loader">
+    <span class="heart">❤️</span>
+    <span class="heart">❤️</span>
+    <span class="heart">❤️</span>
+    <span class="heart">❤️</span>
+  </div>
+
+  <!-- Botão de Surpresa -->
+  <div id="botaoContainer">
+    <button id="surpresaBtn">Surpresa</button>
+  </div>
+
+  <!-- Conteúdo revelado -->
+  <div id="main">
+    <img src="assets/foto.jpg" id="fotoTopo" alt="Nós dois" />
+    
+    <h1 class="titulo">Alicy & Kauã</h1>
+    
+    <p class="mensagem">
+      A cada dia que passa tenho mais certeza que você é o amor da minha vida,
+      obrigada por compartilhar a vida comigo, por me apoiar e me ajudar a levar
+      tudo isso de uma forma mais leve. <br>
+      Você me fez acreditar novamente que o amor verdadeiro ainda existe.
+      Te amo muito meu amor ❤️
+    </p>
+
+    <h2>Compartilhando momentos há</h2>
+
+    <div id="timer">
+      <div class="tempo"><span id="anos">00</span><p>anos</p></div>
+      <div class="tempo"><span id="meses">00</span><p>meses</p></div>
+      <div class="tempo"><span id="dias">00</span><p>dias</p></div>
+      <div class="tempo"><span id="horas">00</span><p>horas</p></div>
+      <div class="tempo"><span id="minutos">00</span><p>minutos</p></div>
+      <div class="tempo"><span id="segundos">00</span><p>segundos</p></div>
+    </div>
+
+    <p class="desde">Desde 18 de maio de 2025</p>
+  </div>
+
+  <audio autoplay loop>
+    <source src="assets/musica.mp3" type="audio/mp3" />
+  </audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles-config.json');
+  </script>
+</body>
+</html>
